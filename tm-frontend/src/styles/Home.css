@@ -1,0 +1,44 @@
+.home-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card {
+  width: 90%;
+  max-width: 400px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-field label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}

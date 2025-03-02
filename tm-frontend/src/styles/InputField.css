@@ -1,0 +1,23 @@
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.input-container input {
+  width: 95.3%;
+  padding: 10px;
+  padding-right: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
